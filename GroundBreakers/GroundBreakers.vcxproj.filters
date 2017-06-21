@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player.cpp">
+      <Filter>src\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\level.cpp">
+      <Filter>src\levels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\groundBlock.cpp">
+      <Filter>src\levels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera.cpp" />
+    <ClCompile Include="src\menu.cpp" />
+    <ClCompile Include="src\button.cpp" />
+    <ClCompile Include="src\ui.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{9eaf7275-c832-4b3e-ac47-cd5b93f1ae93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\player">
+      <UniqueIdentifier>{b85f235a-476d-4e19-bf9d-a334744fe94b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\levels">
+      <UniqueIdentifier>{4312dc5d-aaf3-4cda-88fd-6d8ef27461f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\player.h">
+      <Filter>src\player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\level.h">
+      <Filter>src\levels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\groundBlock.h">
+      <Filter>src\levels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameData.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera.h" />
+    <ClInclude Include="src\menu.h" />
+    <ClInclude Include="src\button.h" />
+    <ClInclude Include="src\ui.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
